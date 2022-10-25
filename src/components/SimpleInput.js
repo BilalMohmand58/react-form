@@ -44,7 +44,7 @@ const SimpleInput = (props) => {
   return (
     <form onSubmit={formSubmitHandler}>
       <div className={nameInputClasses}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">First Name</label>
         <input
           autoFocus
           type="text"
